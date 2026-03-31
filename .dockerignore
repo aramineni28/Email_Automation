@@ -1,0 +1,94 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Variables (SENSITIVE!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# OS specific
+.AppleDouble
+.LSOverride
+.DS_Store
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Temporary files
+tmp/
+temp/
+*.temp
+cache/
+.cache/
+
+# Database files (will be created in volumes)
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker compose and Dockerfile (not needed in image)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Node modules (if applicable)
+node_modules/
+npm-debug.log
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Credentials and secrets
+.credentials
+secrets.json
+*.key
+*.pem
+
+# Project specific
+output/
+results/
+.credentials
